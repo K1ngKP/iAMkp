@@ -1,5 +1,4 @@
 import "./styles/Hero.css";
-import resume from "../assets/docs/Resume_Hatim Shakir.pdf";
 
 const Hero = () => {
   return (
@@ -52,10 +51,10 @@ const Hero = () => {
         style={{ fontFamily: "Tabular, monospace" }}
       >
         Think I'm a great fit for you? ✨ Reach out to me here: 📩
-        hatimcodes@gmail.com
+        <a href="mailto:kaushikpattnaik24@gmail.com">kaushikpattnaik24@gmail.com</a>
       </div>
       <a
-        href={resume}
+        href="https://drive.google.com/file/d/14UcLioZH_v_UG-2BUgzWs-o0Vyq8lODB/view?usp=sharing"
         target="_blank"
         className="resume-btn text-xl xl:text-3xl px-4 xl:px-6 py-2 xl:py-3 text-white font-bold rounded-lg xl:rounded-2xl border-l border-t border-fuchsia-200"
       >

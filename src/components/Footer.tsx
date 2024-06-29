@@ -8,7 +8,7 @@ const Footer = () => {
       }}
     >
       <h3 className="flex-grow-0 text-md lg:text-xl text-white inline mx-auto">
-        📩 Contact :&nbsp;&nbsp;&nbsp;kaushikpattnaik24@gmail.com
+        📩 Contact :&nbsp;&nbsp;&nbsp;<a href="mailto:kaushikpattnaik24@gmail.com">kaushikpattnaik24@gmail.com</a>
       </h3>
 
       <h3 className="flex-grow-0 text-md lg:text-xl text-white inline mx-auto">

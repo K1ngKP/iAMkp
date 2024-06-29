@@ -1,0 +1,53 @@
+@keyframes gradientMove {
+  0% {
+    background-position: 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.moving-gradient {
+  background: rgb(228, 95, 253);
+  background: linear-gradient(
+    90deg,
+    rgba(228, 95, 253, 1) 0%,
+    rgba(84, 44, 249, 1) 25%,
+    rgba(228, 95, 253, 1) 50%,
+    rgba(84, 44, 249, 1) 75%,
+    rgba(228, 95, 253, 1) 100%
+  );
+  background-size: 200% 100%;
+  /* background-position: 100% 0%; */
+  color: transparent;
+  background-clip: text;
+  animation: gradientMove 3s linear infinite;
+}
+
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+.resume-btn {
+  background: linear-gradient(
+    180deg,
+    rgba(57, 41, 94, 0.3) 0%,
+    rgba(36, 32, 45, 0.3) 100%
+  );
+}
+
+.resume-btn:hover {
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+  background: white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  color: rgba(36, 32, 45, 0.9);
+}

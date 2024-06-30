@@ -16,22 +16,22 @@ interface Project {
 }
 
 const projectsData: Project[] = [
-  {
-    index: "01",
-    name: "Personal Portfolio",
-    description:
-      "Crafted a dazzling personal portfolio that showcases my web development capablities. Designed the portfolio using React and Typescript for seamless functionality, adorned it with stylish aesthetics using Tailwind CSS, and finally bootstrapped the development environment with Vite.",
-    image: portfolio,
-    repository: "",
-  },
-  {
-    index: "02",
-    name: "Mini-DataBase System",
-    description:
-      "Engineered a cutting-edge relational database management simulator as part of my university coursework. Designed to store user data and facilitate queries through SQL-like commands, the entire codebase was meticulously implemented in C++, adhering to industry-standard programming practices.",
-    image: database,
-    repository: "https://github.com/hatim-s/DataBase-Management-System",
-  },
+  // {
+  //   index: "01",
+  //   name: "Personal Portfolio",
+  //   description:
+  //     "Crafted a dazzling personal portfolio that showcases my web development capablities. Designed the portfolio using React and Typescript for seamless functionality, adorned it with stylish aesthetics using Tailwind CSS, and finally bootstrapped the development environment with Vite.",
+  //   image: portfolio,
+  //   repository: "",
+  // },
+  // {
+  //   index: "02",
+  //   name: "Mini-DataBase System",
+  //   description:
+  //     "Engineered a cutting-edge relational database management simulator as part of my university coursework. Designed to store user data and facilitate queries through SQL-like commands, the entire codebase was meticulously implemented in C++, adhering to industry-standard programming practices.",
+  //   image: database,
+  //   repository: "https://github.com/hatim-s/DataBase-Management-System",
+  // },
   {
     index: "03",
     name: "Game Finder",
@@ -41,22 +41,22 @@ const projectsData: Project[] = [
     repository: "https://github.com/hatim-s/game-finder",
     website: "https://game-finder-ecru.vercel.app/",
   },
-  {
-    index: "04",
-    name: "Mini-Operating System",
-    description:
-      "Pioneered the creation of a modular operating system within a machine simulator, mirroring real-world OS intricacies. Encompassing essential features like system calls, process scheduling, login/shutdown mechanisms, semaphores, file accesses, process swapping, and virtual memory addressing, this project exemplifies my commitment to mastering complex systems.",
-    image: operatingSystem,
-    repository: "https://github.com/hatim-s/Operating-System",
-  },
-  {
-    index: "05",
-    name: "Mini-Compiler",
-    description:
-      "Architected and developed a powerful mini-compiler for EXPL, a C-like toy language. Enabling support for both Object-Oriented Programming and Functional programming paradigms, the project was meticulously crafted in C, with Flex as the Lexer and Bison as the parser, showcasing precision and sophistication.",
-    image: compiler,
-    repository: "https://github.com/hatim-s/Expl-Compiler",
-  },
+  // {
+  //   index: "04",
+  //   name: "Mini-Operating System",
+  //   description:
+  //     "Pioneered the creation of a modular operating system within a machine simulator, mirroring real-world OS intricacies. Encompassing essential features like system calls, process scheduling, login/shutdown mechanisms, semaphores, file accesses, process swapping, and virtual memory addressing, this project exemplifies my commitment to mastering complex systems.",
+  //   image: operatingSystem,
+  //   repository: "https://github.com/hatim-s/Operating-System",
+  // },
+  // {
+  //   index: "05",
+  //   name: "Mini-Compiler",
+  //   description:
+  //     "Architected and developed a powerful mini-compiler for EXPL, a C-like toy language. Enabling support for both Object-Oriented Programming and Functional programming paradigms, the project was meticulously crafted in C, with Flex as the Lexer and Bison as the parser, showcasing precision and sophistication.",
+  //   image: compiler,
+  //   repository: "https://github.com/hatim-s/Expl-Compiler",
+  // },
   {
     index: "06",
     name: "Sorting Algorithms Visualizer",

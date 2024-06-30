@@ -9,6 +9,7 @@ const Navbar = () => {
     { title: "Experience.", section: "experience" },
     { title: "Skills.", section: "skills" },
     { title: "Projects.", section: "projects" },
+    { title: "Leisure.", section: "leisure"}
   ];
 
   const clickHandler = (sectionName: string) => {

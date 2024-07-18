@@ -2,9 +2,6 @@ import gameFinder from "../assets/images/game-finder.png";
 import pathFinder from "../assets/images/path-finder.png";
 import portfolio from "../assets/images/portfolio.png";
 import sorting from "../assets/images/sorting.png";
-import operatingSystem from "../assets/images/operating-system.png";
-import compiler from "../assets/images/compiler.png";
-import database from "../assets/images/database.png";
 import jchess from "../assets/images/jchess-logo.png"
 interface Project {
   index: string;
@@ -16,19 +13,19 @@ interface Project {
 }
 
 const projectsData: Project[] = [
-  // {
-  //   index: "01",
-  //   name: "Personal Portfolio",
-  //   description:
-  //     "Crafted a dazzling personal portfolio that showcases my web development capablities. Designed the portfolio using React and Typescript for seamless functionality, adorned it with stylish aesthetics using Tailwind CSS, and finally bootstrapped the development environment with Vite.",
-  //   image: portfolio,
-  //   repository: "",
-  // },
+  {
+    index: "01",
+    name: "Personal Portfolio",
+    description:
+      "Crafted a dazzling personal portfolio that showcases my web development capablities. Designed the portfolio using React and Typescript for seamless functionality, adorned it with stylish aesthetics using Tailwind CSS, and finally bootstrapped the development environment with Vite.",
+    image: portfolio,
+    repository: "https://github.com/K1ngKP/iAMkp",
+  },
   {
     index: "02",
     name: "Chess Engine using",
     description:
-      " ",
+      " Elevate your chess game with my JavaScript-based engine, evaluating up to 700,000 positions per second and reaching a depth of 10. It offers up to 8 plies of analysis, providing precise insights to enhance your skills and strategic understanding. Perfect for players at any level looking to master the complexities of chess.",
     image: jchess,
     repository: "https://github.com/K1ngKP/Jchess",
     website: "https://k1ngkp.github.io/Jchess/",

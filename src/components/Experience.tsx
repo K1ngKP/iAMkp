@@ -3,6 +3,7 @@ import ExperienceCard from "./ExperienceCard";
 import experienceData from "../data/experience";
 
 import salesforceLogo from "../assets/logos/NITP_Logo2.png";
+import unifyappsLogo from "../assets/logos/UnifyApps_logo.jpeg";
 
 const Experience = () => {
   return (
@@ -17,7 +18,7 @@ const Experience = () => {
             company={exp.company}
             description={exp.description}
             position={exp.position}
-            logo={salesforceLogo}
+            logo={exp.logo}
           />
         ))}
       </div>

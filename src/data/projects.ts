@@ -5,7 +5,7 @@ import sorting from "../assets/images/sorting.png";
 import operatingSystem from "../assets/images/operating-system.png";
 import compiler from "../assets/images/compiler.png";
 import database from "../assets/images/database.png";
-
+import jchess from "../assets/images/jchess-logo.png"
 interface Project {
   index: string;
   name: string;
@@ -24,14 +24,16 @@ const projectsData: Project[] = [
   //   image: portfolio,
   //   repository: "",
   // },
-  // {
-  //   index: "02",
-  //   name: "Mini-DataBase System",
-  //   description:
-  //     "Engineered a cutting-edge relational database management simulator as part of my university coursework. Designed to store user data and facilitate queries through SQL-like commands, the entire codebase was meticulously implemented in C++, adhering to industry-standard programming practices.",
-  //   image: database,
-  //   repository: "https://github.com/hatim-s/DataBase-Management-System",
-  // },
+  {
+    index: "02",
+    name: "Chess Engine using",
+    description:
+      " ",
+    image: jchess,
+    repository: "https://github.com/K1ngKP/Jchess",
+    website: "https://k1ngkp.github.io/Jchess/",
+
+  },
   {
     index: "03",
     name: "Game Finder",

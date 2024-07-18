@@ -2,9 +2,6 @@ import ExperienceCard from "./ExperienceCard";
 
 import experienceData from "../data/experience";
 
-import salesforceLogo from "../assets/logos/NITP_Logo2.png";
-import unifyappsLogo from "../assets/logos/UnifyApps_logo.jpeg";
-
 const Experience = () => {
   return (
     <div id="experience-section" className="w-4/5 my-32 mx-auto">

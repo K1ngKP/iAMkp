@@ -8,8 +8,7 @@ const Navbar = () => {
     { title: "About me.", section: "about" },
     { title: "Experience.", section: "experience" },
     { title: "Skills.", section: "skills" },
-    { title: "Projects.", section: "projects" },
-    { title: "Leisure.", section: "leisure"}
+    { title: "Projects.", section: "projects" }
   ];
 
   const clickHandler = (sectionName: string) => {

@@ -40,24 +40,8 @@ const projectsData: Project[] = [
     repository: "https://github.com/hatim-s/game-finder",
     website: "https://game-finder-ecru.vercel.app/",
   },
-  // {
-  //   index: "04",
-  //   name: "Mini-Operating System",
-  //   description:
-  //     "Pioneered the creation of a modular operating system within a machine simulator, mirroring real-world OS intricacies. Encompassing essential features like system calls, process scheduling, login/shutdown mechanisms, semaphores, file accesses, process swapping, and virtual memory addressing, this project exemplifies my commitment to mastering complex systems.",
-  //   image: operatingSystem,
-  //   repository: "https://github.com/hatim-s/Operating-System",
-  // },
-  // {
-  //   index: "05",
-  //   name: "Mini-Compiler",
-  //   description:
-  //     "Architected and developed a powerful mini-compiler for EXPL, a C-like toy language. Enabling support for both Object-Oriented Programming and Functional programming paradigms, the project was meticulously crafted in C, with Flex as the Lexer and Bison as the parser, showcasing precision and sophistication.",
-  //   image: compiler,
-  //   repository: "https://github.com/hatim-s/Expl-Compiler",
-  // },
   {
-    index: "06",
+    index: "04",
     name: "Sorting Algorithms Visualizer",
     description:
       "Channeling my passion for algorithms, I created a visualization tool offering insight into fundamental sorting algorithms. Employing React and Javascript for robust functionality, and vanilla CSS for an elegant design, this project reflects my dedication to making complex concepts accessible and engaging. ",
@@ -66,7 +50,7 @@ const projectsData: Project[] = [
     website: "https://sorting-algorithms-visualizer-self.vercel.app/",
   },
   {
-    index: "07",
+    index: "05",
     name: "Path Finding Algorithms Visualizer",
     description:
       "Driven by a fascination for graph path-finding algorithms, I crafted a visually captivating tool to showcase their functionality. Utilizing React, Javascript, and vanilla CSS, this project serves as a testament to my commitment to creating projects that blend sophistication with user-friendly design.",

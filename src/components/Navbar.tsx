@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="nav-buttons hidden md:flex col-span-2 flex-wrap justify-between">
+    <div className="nav-buttons hidden md:flex col-span-2 flex-wrap justify-end space-x-8">
       {sections.map((section) => (
         <button
           className={`flex-grow-0 flex-shrink-0 text-white bg-transparent ${
@@ -29,14 +29,14 @@ const Navbar = () => {
             clickHandler(section.section);
           }}
         >
-          <h4
+          <h6
             className={`text-xl lg:text-2xl xl:text-3xl ${
               currentSection === section.section &&
               "text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600"
             }`}
           >
             {section.title}
-          </h4>
+          </h6>
           <div
             className={`w-full h-[4px] bg-gradient-to-r from-fuchsia-400 to-indigo-600 mt-2 ${
               currentSection !== section.section && "hidden"

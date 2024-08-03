@@ -9,7 +9,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import './styles/CubeSpinner.scss';
 
-const CubeSpinner = () => {
+const Cube = () => {
   return (
     <div className="stage-cube-cont">
       <div className="cubespinner">
@@ -36,4 +36,4 @@ const CubeSpinner = () => {
   );
 };
 
-export default CubeSpinner;
+export default Cube;

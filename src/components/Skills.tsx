@@ -1,6 +1,6 @@
 import SkillBadge from "./SkillBadge";
 import skillData from "../data/skills";
-import Cubespinner from "./CubeSpinner"
+import Cube from "./Cube"
 
 const Skills = () => {
   return (
@@ -15,7 +15,7 @@ const Skills = () => {
           ))}
         </div>
         <div className="flex justify-center mt-10">
-          <Cubespinner />
+          <Cube />
         </div>
       </div>
     </div>

@@ -1,7 +1,7 @@
 const skillData: string[] = [
   "Java",
   "Python",
-  "C",
+  "Next.js",
   "React.js",
   "Typescript",
   "Material UI",

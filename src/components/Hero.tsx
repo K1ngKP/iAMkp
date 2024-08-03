@@ -4,22 +4,22 @@ const Hero = () => {
   return (
     <div
       id="hero-section"
-      className="items-center mt-24 sm:mt-40 xl:mt-44 mb-96 mx-12 md:mx-28 lg:mx-32 xl:ml-52 xl:mr-28"
+      className="items-center mt-24 sm:mt-40 xl:mt-44 mb-96 mx-3 md:mx-28 lg:mx-32 xl:ml-52 xl:mr-28"
       style={{
         zIndex: "10",
       }}
     >
-      <h1 className="text-white text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+      <h2 className="text-white text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
         i write code to
-      </h1>
-      <h1
+      </h2>
+      <h2
         className="moving-gradient text-6xl md:text-7xl lg:text-8xl xl:text-9xl inline"
         style={{
           letterSpacing: "10",
         }}
       >
         make a change
-      </h1>
+      </h2>
       <div className="divider-line py-10 h-10 flex items-center gap-2 lg:gap-6 xl:gap-8">
         <div
           className="flex-shrink-1 hidden sm:flex"
@@ -30,7 +30,7 @@ const Hero = () => {
           }}
         ></div>
         <div className="flex-grow-0 inline-flex flex-basis-content">
-          <h2
+          <h3
             className="text-white text-2xl sm:text-3xl xl:text-5xl tracking-wide xl:tracking-widest"
             style={{
               fontFamily: "Tabular, monospace",
@@ -43,7 +43,7 @@ const Hero = () => {
             }}
           >
             &lt;developer/&gt;&nbsp;
-          </h2>
+          </h3>
         </div>
       </div>
       <div

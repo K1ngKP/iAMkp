@@ -108,19 +108,19 @@
 }
 
 h1 {
-  font-family: "ClashDisplay-Bold"; /* 700 */
+  font-family: "ClashDisplay-Bold";
 }
 
 h2 {
-  font-family: "ClashDisplay-Semibold"; /* 600 */
+  font-family: "ClashDisplay-Semibold";
 }
 
 h3 {
-  font-family: "ClashDisplay-Medium"; /* 500 */
+  font-family: "ClashDisplay-Semibold";
 }
 
 h4 {
-  font-family: "ClashDisplay-Regular"; /* 400 */
+  font-family: "ClashDisplay-medium"; 
 }
 
 p {
@@ -132,8 +132,8 @@ body::-webkit-scrollbar {
 }
 
 body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
 }
 
 body {

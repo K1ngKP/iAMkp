@@ -23,7 +23,7 @@ const projectsData: Project[] = [
   },
   {
     index: "02",
-    name: "Chess Engine using",
+    name: "Chess Engine",
     description:
       " Elevate your chess game with my JavaScript-based engine, evaluating up to 700,000 positions per second and reaching a depth of 10. It offers up to 8 plies of analysis, providing precise insights to enhance your skills and strategic understanding. Perfect for players at any level looking to master the complexities of chess.",
     image: jchess,
@@ -42,21 +42,20 @@ const projectsData: Project[] = [
   },
   {
     index: "04",
-    name: "Sorting Algorithms Visualizer",
+    name: "My Tech Notes",
     description:
-      "Channeling my passion for algorithms, I created a visualization tool offering insight into fundamental sorting algorithms. Employing React and Javascript for robust functionality, and vanilla CSS for an elegant design, this project reflects my dedication to making complex concepts accessible and engaging. ",
+      "An intuitive and powerful word editor that facilitates real-time collaboration. 100+ users can edit documents simultaneously with live updates suitable for dev discussions across a project. Create, share, comment and pen down all the important topics using this interactive web application.",
     image: sorting,
     repository: "https://github.com/hatim-s/Sorting-Algorithms-Visualizer",
-    website: "https://sorting-algorithms-visualizer-self.vercel.app/",
+    website: "https://my-technotes.vercel.app/",
   },
   {
     index: "05",
-    name: "Path Finding Algorithms Visualizer",
+    name: "Mathe Magics",
     description:
-      "Driven by a fascination for graph path-finding algorithms, I crafted a visually captivating tool to showcase their functionality. Utilizing React, Javascript, and vanilla CSS, this project serves as a testament to my commitment to creating projects that blend sophistication with user-friendly design.",
+      "The world of Mathematics is always fascinating and with a great passion for maths, here is a website for solving few mathematical problems. Consists of a scientific calculator, equation solver and a sudoku solver designed using efficient algorithms. Still a few tweaks left.",
     image: pathFinder,
-    repository: "https://github.com/hatim-s/Path-Finding-Algorithm-Visualizer",
-    website: "https://path-finding-algorithm-visualizer-one.vercel.app/",
+    repository: "https://github.com/K1ngKP/scientific-calculator",
   },
 ];
 

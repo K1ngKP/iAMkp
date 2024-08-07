@@ -3,6 +3,7 @@ import pathFinder from "../assets/images/path-finder.png";
 import portfolio from "../assets/images/portfolio.png";
 import sorting from "../assets/images/sorting.png";
 import jchess from "../assets/images/jchess-logo.png"
+import mathemagics from "../assets/images/main-screen.png"
 interface Project {
   index: string;
   name: string;
@@ -54,7 +55,7 @@ const projectsData: Project[] = [
     name: "Mathe Magics",
     description:
       "The world of Mathematics is always fascinating and with a great passion for maths, here is a website for solving few mathematical problems. Consists of a scientific calculator, equation solver and a sudoku solver designed using efficient algorithms. Still a few tweaks left.",
-    image: pathFinder,
+    image: mathemagics,
     repository: "https://github.com/K1ngKP/scientific-calculator",
   },
 ];

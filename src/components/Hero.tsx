@@ -9,17 +9,17 @@ const Hero = () => {
         zIndex: "10",
       }}
     >
-      <h2 className="text-white text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
+      <h3 className="text-white text-6xl md:text-7xl lg:text-8xl xl:text-9xl">
         i write code to
-      </h2>
-      <h2
+      </h3>
+      <h3
         className="moving-gradient text-6xl md:text-7xl lg:text-8xl xl:text-9xl inline"
         style={{
           letterSpacing: "10",
         }}
       >
         make a change
-      </h2>
+      </h3>
       <div className="divider-line py-10 h-10 flex items-center gap-2 lg:gap-6 xl:gap-8">
         <div
           className="flex-shrink-1 hidden sm:flex"

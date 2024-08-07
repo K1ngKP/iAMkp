@@ -1,4 +1,5 @@
 import "./styles/ProjectCard.css";
+import { FaLink, FaGithub } from "react-icons/fa";
 
 interface Props {
   index: string;
@@ -64,16 +65,16 @@ const ProjectCard = ({
         >
           {description}
         </p>
-        <div className={`flex flex-wrap gap-2 sm:gap-4 lg:gap-8 pt-4`}>
+        <div className={`flex flex-wrap gap-2 sm:gap-4 lg:gap-8 pt-4 justify-center`}>
           <a
             href={website}
             target="_blank"
             className={`py-2 px-4 rounded-md ${!website && "hidden"}`}
           >
-            <h3 className="text-md sm:text-xl">Website</h3>
+            <FaLink />
           </a>
-          <a href={repository} target="_blank" className="p-2 rounded-md">
-            <h3 className="text-md sm:text-xl">Repository</h3>
+          <a href={repository} target="_blank" className="py-2 px-4 rounded-md">
+            <FaGithub className="justify-center"/>
           </a>
         </div>
       </div>

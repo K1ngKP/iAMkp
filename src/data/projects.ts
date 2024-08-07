@@ -1,5 +1,4 @@
 import gameFinder from "../assets/images/game-finder.png";
-import pathFinder from "../assets/images/path-finder.png";
 import portfolio from "../assets/images/portfolio.png";
 import sorting from "../assets/images/sorting.png";
 import jchess from "../assets/images/jchess-logo.png"

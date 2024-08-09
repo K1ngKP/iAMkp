@@ -1,6 +1,6 @@
 import gameFinder from "../assets/images/game-finder.png";
 import portfolio from "../assets/images/portfolio.png";
-import sorting from "../assets/images/sorting.png";
+import sorting from "../assets/images/myTechNotesLogo.png";
 import jchess from "../assets/images/jchess-logo.png"
 import mathemagics from "../assets/images/main-screen.png"
 interface Project {
@@ -8,7 +8,7 @@ interface Project {
   name: string;
   description: string;
   image?: string;
-  repository: string;
+  repository?: string;
   website?: string;
 }
 
@@ -37,7 +37,7 @@ const projectsData: Project[] = [
     description:
       "Unveiled an impressive game-finding application utilizing React, Typescript, Rawg API, and Chakra-UI. Elevating user experience with convenient sorting and filtering options, this project reflects my commitment to creating applications that are both functional and user-friendly.",
     image: gameFinder,
-    repository: "https://github.com/hatim-s/game-finder",
+    repository: "https://game-finder-ecru.vercel.app/",
     website: "https://game-finder-ecru.vercel.app/",
   },
   {
@@ -46,7 +46,7 @@ const projectsData: Project[] = [
     description:
       "An intuitive and powerful word editor that facilitates real-time collaboration. 100+ users can edit documents simultaneously with live updates suitable for dev discussions across a project. Create, share, comment and pen down all the important topics using this interactive web application.",
     image: sorting,
-    repository: "https://github.com/hatim-s/Sorting-Algorithms-Visualizer",
+    repository: "https://github.com/K1ngKP/my-technotes",
     website: "https://my-technotes.vercel.app/",
   },
   {

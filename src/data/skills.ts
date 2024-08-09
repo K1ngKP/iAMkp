@@ -14,7 +14,10 @@ const skillData: string[] = [
   "Springboot",
   "Node.js",
   "VS Code",
-  "MySQL"
+  "MySQL",
+  "SCSS",
+  "MongoDB",
+  "Postman"
 
 ];
 

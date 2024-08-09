@@ -8,7 +8,7 @@ interface Project {
   name: string;
   description: string;
   image?: string;
-  repository?: string;
+  repository: string;
   website?: string;
 }
 

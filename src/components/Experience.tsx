@@ -1,22 +1,39 @@
+import { useState } from "react";
 import ExperienceCard from "./ExperienceCard";
-
 import experienceData from "../data/experience";
+
 const Experience = () => {
+
+  const [active, setActive] = useState<string | null>(null);
+
   return (
-    <div id="experience-section" className="w-4/5 my-32 mx-auto">
-      <h3 className="text-4xl md:text-5xl lg:text-6xl xl:text-71xl inline text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-indigo-600">
+    <div className="w-4/5 mx-auto my-32">
+
+      <h3 className="moving-gradient text-6xl md:text-7xl lg:text-8xl xl:text-7xl inline">
         Experiences
       </h3>
-      <div className="flex flex-col gap-10 xl:gap-24 pt-10">
-        {experienceData.map((exp) => (
-          <ExperienceCard
-            index={exp.index}
-            company={exp.company}
-            description={exp.description}
-            position={exp.position}
-            logo={exp.logo}
-          />
-        ))}
+
+      <div className="mt-10 flex flex-col gap-8">
+
+        {experienceData.map((exp) => {
+
+          const isActive = active === exp.index;
+
+          return (
+            <div
+              key={exp.index}
+              onClick={() => setActive(isActive ? null : exp.index)}
+              className={`transition-all duration-300 ${
+                active && !isActive
+                  ? "opacity-40 scale-[0.98]"
+                  : "opacity-100 scale-100"
+              }`}
+            >
+              <ExperienceCard {...exp} />
+            </div>
+          );
+        })}
+
       </div>
     </div>
   );

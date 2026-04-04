@@ -1,5 +1,5 @@
 import "./styles/Hero.css";
-
+import TypingText from "./TypingText";
 const Hero = () => {
   return (
     <div
@@ -30,20 +30,7 @@ const Hero = () => {
           }}
         ></div>
         <div className="flex-grow-0 inline-flex flex-basis-content">
-          <h3
-            className="text-white text-2xl sm:text-3xl xl:text-5xl tracking-wide xl:tracking-widest"
-            style={{
-              fontFamily: "Tabular, monospace",
-              borderRight: "3px solid",
-              width: "100%",
-              whiteSpace: "nowrap",
-              overflow: "hidden",
-              animation:
-                "typing 2s steps(13) infinite alternate, cursor 0.4s step-end infinite alternate",
-            }}
-          >
-            &lt;developer/&gt;&nbsp;
-          </h3>
+          <TypingText/>
         </div>
       </div>
       <div

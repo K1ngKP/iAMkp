@@ -1,13 +1,14 @@
-.experience-card {
+/* .experience-card {
   background: linear-gradient(
     180deg,
     rgba(57, 41, 94, 0.3) 0%,
     rgba(36, 32, 45, 0.3) 100%
   );
-  content: fit;
+
   overflow: visible;
-  flex-basis: 30%;
   transition: transform 0.5s ease-in-out;
+  width: 100%;
+  min-height: fit-content;
 }
 
 .experience-card img {
@@ -16,4 +17,39 @@
 
 .experience-card:hover {
   transform: translateX(-50px);
+}
+
+
+ */
+.experience-card {
+  background: linear-gradient(
+    180deg,
+    rgba(57, 41, 94, 0.35) 0%,
+    rgba(36, 32, 45, 0.35) 100%
+  );
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  transition: all 0.35s ease;
+  overflow: hidden;
+
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Subtle hover (NOT aggressive like before) */
+.experience-card:hover {
+  transform: translateY(-6px) scale(1.01);
+  box-shadow: 0 20px 50px rgba(168, 85, 247, 0.2);
+}
+
+/* Logo micro interaction */
+.experience-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Sub-card hover glow */
+.experience-card + div div:hover {
+  box-shadow: 0 10px 25px rgba(168, 85, 247, 0.2);
+  transform: translateX(6px);
 }

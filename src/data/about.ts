@@ -9,8 +9,8 @@ export interface AboutContent {
 }
 
 const aboutData: AboutContent = {
-  content: `Hi! 👋 I am Kaushik. I am a Tech Enthusiast 👨🏻‍🔬, a creative web developer 🧑🏻‍💻 and a dedicated mentor from NIT Patna🎓.
-  Solving problems has to be the favourite thing of mine, and Algorithms being my strength. Apart from this, 
+  content: `Hi! 👋 I’m Kaushik — a Tech Enthusiast 👨🏻‍🔬, building products to solve real problems 🧑🏻‍💻 and a dedicated mentor from NIT Patna🎓.
+  I work as a Technical PM, turning complex systems into scalable, data-driven products. Apart from this, 
    I am also proficient in several programming languages, profound interest 
   in Full-stack development and others. (Whew! 😮‍💨) Scroll below to see some of my academic and personal projects. ⬇️`,
   links: {
